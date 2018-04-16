@@ -32,7 +32,7 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 	UPDATE dbo.Tasks
-	SET Color = 'ff0000'
+	SET Color = '#ff0000'
 	WHERE Tasks.DateCompleted < convert(date, getDate())
 END
 
