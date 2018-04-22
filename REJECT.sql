@@ -12,8 +12,7 @@
 -- This block of comments will not be included in
 -- the definition of the function.
 -- ================================================
-USE UpdatedDash
-GO
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
